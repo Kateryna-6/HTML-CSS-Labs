@@ -6,56 +6,61 @@
     <title>Автобіографія</title>
     <style>
        
+        body {
+            font-size: 120%;
+        }
+
+        
         h1 {
             text-align: center;
             font-size: 22px;
         }
-      
-        p a {
+
+        h2.content-heading {
+            text-align: center;
+        }
+
+        article h2 {
+            font-size: 144%; 
+        }
+
+        .back-link {
             font-style: italic;
         }
-       
-        h2.content-title {
-            text-align: center;
-        }
-       
-        .nav-button {
+
+        .nav-btn {
             display: inline-block;
-            width: 180px;
+            width: 220px;
             text-align: center;
-            background-color: #007bff;
+            background-color: #0066cc;
             color: #ffffff;
-            border: 2px solid #004085;
-            padding: 8px;
-            margin: 5px;
+            border: 2px solid #003366;
+            padding: 10px;
+            margin: 4px;
             text-decoration: none;
             font-weight: bold;
         }
-        .nav-button:hover {
+
+        .nav-btn:hover {
             background-color: magenta;
-            color: black;
+            color: #000000;
         }
-        .nav-button:active {
+
+        .nav-btn:active {
             background-color: yellow;
-            color: black;
+            color: #000000;
         }
-       
-        body {
-            font-size: 120%;
-        }
-        h2, h3 {
-            font-size: 144%; 
-        }
-       
-        .section-1 { background-color: #f8f9fa; color: #333333; }
-        .section-2 { background-color: #e2e3e5; color: #111111; }
-        .section-3 { background-color: #d1ecf1; color: #0c5460; }
-        
-      
+
+        .section-1 { background-color: #f8f9fa; color: #212529; padding: 10px; }
+        .section-2 { background-color: #e9ecef; color: #343a40; padding: 10px; }
+        .section-3 { background-color: #dee2e6; color: #212529; padding: 10px; }
+        .section-4 { background-color: #ced4da; color: #111111; padding: 10px; }
+        .section-5 { background-color: #e2e3e5; color: #0c5460; padding: 10px; }
+
         .to-content {
             font-weight: bold;
         }
-        
+
         .to-top {
             text-transform: uppercase;
         }
@@ -65,18 +70,18 @@
 
     <h1 id="top">Автобіографія Момот Катерини Ігорівни</h1>
 
-    <p><a href="index.html">Назад на головну</a></p>
+    <p><a href="index.html" class="back-link">Назад на головну</a></p>
 
-    <h3 id="table-of-contents">Зміст</h3>
-    <ul>
-        <li><a href="#basic-info">Базова інформація</a></li>
-        <li><a href="#childhood">Дитинство</a></li>
-        <li><a href="#school-years">Шкільні роки</a></li>
-        <li><a href="#after-school">Поза школою</a></li>
-        <li><a href="#university">Університет</a></li>
+    <h2 id="table-of-contents" class="content-heading">Зміст</h2>
+    <ul style="list-style-type: none; padding-left: 0;">
+        <li><a href="#basic-info" class="nav-btn">Базова інформація</a></li>
+        <li><a href="#childhood" class="nav-btn">Дитинство</a></li>
+        <li><a href="#school-years" class="nav-btn">Шкільні роки</a></li>
+        <li><a href="#after-school" class="nav-btn">Поза школою</a></li>
+        <li><a href="#university" class="nav-btn">Університет</a></li>
     </ul>
 
-    <article>
+    <article class="section-1">
         <h2 id="basic-info">Базова інформація</h2>
         <p>
             Я народолася та виросла у мальовничому місті, де з дитинства проявляла інтерес до знань. 
@@ -85,10 +90,10 @@
             Зараз я продовжую активно розвиватися, ставлячи перед собою нові амбітні цілі. 
             Вважаю, що систематична праця та відповідальне ставлення до справи є головними чинниками успіху.
         </p>
-        <p><a href="#table-of-contents">до змісту</a></p>
+        <p><a href="#table-of-contents" class="to-content">до змісту</a></p>
     </article>
 
-    <article>
+    <article class="section-2">
         <h2 id="childhood">Дитинство</h2>
         <p>
             Дитинство було сповнене яскравих подій, активних ігор на свіжому повітрі та перших відкриттів. 
@@ -97,10 +102,10 @@
             Саме в цей період сформувалися мої основні риси характеру: дружелюбність, наполегливість та командний дух. 
             Спогади про ті часи й досі викликають теплу посмішку та надихають у складні моменти.
         </p>
-        <p><a href="#table-of-contents">до змісту</a></p>
+        <p><a href="#table-of-contents" class="to-content">до змісту</a></p>
     </article>
 
-    <article>
+    <article class="section-3">
         <h2 id="school-years">Шкільні роки</h2>
         <p>
             Навчання в школі стало важливим етапом у моєму житті, де я здобула ґрунтовні базові знання. 
@@ -109,10 +114,10 @@
             Школа навчила мене дисципліни, вміння планувати свій час та працювати з великими обсягами інформації. 
             Також у шкільні роки я знайшла вірних друзів, спілкування з якими триває й досі.
         </p>
-        <p><a href="#table-of-contents">до змісту</a></p>
+        <p><a href="#table-of-contents" class="to-content">до змісту</a></p>
     </article>
 
-    <article>
+    <article class="section-4">
         <h2 id="after-school">Поза школою</h2>
         <p>
             Окрім шкільної програми, я завжди намагалася розвиватися у різних напрямках та хобі. 
@@ -121,10 +126,10 @@
             У старших класах почала цікавитися базовими концепціями програмування. 
             Різносторонній розвиток допоміг мені чітко зрозуміти, з якою сферою я хочу пов'язати майбутнє.
         </p>
-        <p><a href="#table-of-contents">до змісту</a></p>
+        <p><a href="#table-of-contents" class="to-content">до змісту</a></p>
     </article>
 
-    <article>
+    <article class="section-5">
         <h2 id="university">Університет</h2>
         <p>
             Вступ до університету став свідомим кроком на шляху до здобуття омріяної професії. 
@@ -133,12 +138,12 @@
             Спілкування з викладачами та одногрупниками мотивує щодня дізнаватися щось нове та вдосконалювати навички. 
             Переконана, що здобуті знання стануть міцним фундаментом для моєї успішної кар'єри.
         </p>
-        <p><a href="#table-of-contents">до змісту</a></p>
+        <p><a href="#table-of-contents" class="to-content">до змісту</a></p>
     </article>
 
     <hr style="border: 1px solid black; width: 100%;">
 
-    <p><a href="#top">Уверх</a></p>
+    <p><a href="#top" class="to-top">Уверх</a></p>
 
 </body>
 </html>
