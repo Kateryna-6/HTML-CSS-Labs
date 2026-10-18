@@ -4,22 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Галерея</title>
+    <style>
+      
+        h1 {
+            text-align: center;
+            font-size: 20px;
+        }
+
+        .back-link {
+            font-style: italic;
+        }
+
+        .heading-base {
+            text-align: center;
+            font-size: 20px;
+        }
+
+        .heading-smaller {
+            text-align: center;
+            font-size: 14px;
+        }
+
+        .heading-larger {
+            text-align: center;
+            font-size: 26px;
+        }
+
+        .heading-largest {
+            text-align: center;
+            font-size: 34px;
+        }
+
+        img {
+            display: block;
+            margin: 10px auto;
+        }
+    </style>
 </head>
 <body>
 
     <h1>Галерея Момот Катерини Ігорівни</h1>
 
-    <p><a href="index.html">Назад на головну</a></p>
+    <p><a href="index.html" class="back-link">Назад на головну</a></p>
 
-    <h2>Мої зображення</h2>
+    <h2 class="heading-base">Мої зображення</h2>
 
-    <h3>Зображення у цій папці</h3>
+    <h3 class="heading-smaller">Зображення у цій папці</h3>
     <img src="image1.png" alt="Локальне зображення у цій папці" width="640" height="480">
 
-    <h3>Зображення у папці</h3>
+    <h3 class="heading-larger">Зображення у папці</h3>
     <img src="images/image2.png" alt="Локальне зображення у підпапці images" width="640" height="480">
 
-    <h3>Зображення онлайн</h3>
+    <h3 class="heading-largest">Зображення онлайн</h3>
     <img src="https://placehold.co/1280x1024" alt="Онлайн зображення з placehold.co" width="1280" height="1024">
 
 </body>
