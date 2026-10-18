@@ -5,37 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Автобіографія</title>
     <style>
-       
+        
         body {
             font-size: 120%;
         }
 
-        
-        h1 {
             text-align: center;
             font-size: 22px;
-        }
-
-        h2.content-heading {
-            text-align: center;
-        }
-
-        article h2 {
-            font-size: 144%; 
         }
 
         .back-link {
             font-style: italic;
         }
 
+        #table-of-contents {
+            text-align: center;
+        }
+
         .nav-btn {
             display: inline-block;
-            width: 220px;
+            width: 200px;
             text-align: center;
-            background-color: #0066cc;
-            color: #ffffff;
-            border: 2px solid #003366;
-            padding: 10px;
+            background-color: blue;
+            color: white;
+            border: 2px solid navy;
+            padding: 8px;
             margin: 4px;
             text-decoration: none;
             font-weight: bold;
@@ -43,20 +37,25 @@
 
         .nav-btn:hover {
             background-color: magenta;
-            color: #000000;
+            color: black;
         }
 
         .nav-btn:active {
             background-color: yellow;
-            color: #000000;
+            color: black;
         }
 
-        .section-1 { background-color: #f8f9fa; color: #212529; padding: 10px; }
-        .section-2 { background-color: #e9ecef; color: #343a40; padding: 10px; }
-        .section-3 { background-color: #dee2e6; color: #212529; padding: 10px; }
-        .section-4 { background-color: #ced4da; color: #111111; padding: 10px; }
-        .section-5 { background-color: #e2e3e5; color: #0c5460; padding: 10px; }
+        article h2 {
+            font-size: 144%;
+        }
 
+        .section-1 { background-color: lightgray; color: black; padding: 10px; }
+        .section-2 { background-color: silver; color: black; padding: 10px; }
+        .section-3 { background-color: lavender; color: black; padding: 10px; }
+        .section-4 { background-color: lightgrey; color: black; padding: 10px; }
+        .section-5 { background-color: whitesmoke; color: black; padding: 10px; }
+
+        
         .to-content {
             font-weight: bold;
         }
@@ -72,8 +71,8 @@
 
     <p><a href="index.html" class="back-link">Назад на головну</a></p>
 
-    <h2 id="table-of-contents" class="content-heading">Зміст</h2>
-    <ul style="list-style-type: none; padding-left: 0;">
+    <h3 id="table-of-contents">Зміст</h3>
+    <ul style="list-style-type: none; padding-left: 0; text-align: center;">
         <li><a href="#basic-info" class="nav-btn">Базова інформація</a></li>
         <li><a href="#childhood" class="nav-btn">Дитинство</a></li>
         <li><a href="#school-years" class="nav-btn">Шкільні роки</a></li>
