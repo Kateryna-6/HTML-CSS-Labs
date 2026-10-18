@@ -5,22 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Персональна сторінка</title>
     <style>
-       
+        /* 1.2.3: Вирівняти заголовок першого рівня по центру та розмір шрифту 24px */
         h1 {
             text-align: center;
             font-size: 24px;
         }
-        
+
+        /* 1.2.3: Розмір текстового абзацу збільшити на 20% */
         p {
             font-size: 120%;
         }
-      
-        a:link {
-            color: #0056b3; 
-        }
-        a:visited {
-            color: #6f42c1; 
-        }
+
+        /* 1.2.3: Унікальні кольори для кожного посилання (до та після відвідання відрізняються) */
+        a.link-bio:link { color: blue; }
+        a.link-bio:visited { color: purple; }
+
+        a.link-now:link { color: green; }
+        a.link-now:visited { color: maroon; }
+
+        a.link-friends:link { color: teal; }
+        a.link-friends:visited { color: navy; }
+
+        a.link-gallery:link { color: olive; }
+        a.link-gallery:visited { color: fuchsia; }
     </style>
 </head>
 <body>
@@ -28,18 +35,17 @@
     <h1>Персональна сторінка Момот Катерина Ігорівна </h1>
 
     <p>
-       Мене звати Катерина.Мені 19 років.Я навчаюся в університеті КНУ на спеціальності комп'ютерних наук.
-       У вільний час я слухаю музику, дивлюся цікаві фільми та читаю.
-       Також мені подобається затишний відпочинок, подорожі та спілкування з близькими людьми.
-</p>
+        Мене звати Катерина. Мені 19 років. Я навчаюся в університеті КНУ на спеціальності комп'ютерних наук.
+        У вільний час я слухаю музику, дивлюся цікаві фільми та читаю.
+        Також мені подобається затишний відпочинок, подорожі та спілкування з близькими людьми.
     </p>
 
     <nav>
         <ul>
-            <li><a href="biography.html">Автобіографія</a></li>
-            <li><a href="nowadays.html">Сьогодення</a></li>
-            <li><a href="friends.html">Друзі</a></li>
-            <li><a href="gallery.html">Галерея</a></li>
+            <li><a href="biography.html" class="link-bio">Автобіографія</a></li>
+            <li><a href="nowadays.html" class="link-now">Сьогодення</a></li>
+            <li><a href="friends.html" class="link-friends">Друзі</a></li>
+            <li><a href="gallery.html" class="link-gallery">Галерея</a></li>
         </ul>
     </nav>
 
