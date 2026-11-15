@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+}
+
+article {
+    font-size: 120%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 22px;
+}
+
+.back-link {
+    font-style: italic;
+}
+
+#table-of-contents {
+    text-align: center;
+}
+
+.toc-list {
+    list-style-type: none;
+    padding-left: 0;
+    text-align: center;
+}
+
+.nav-btn {
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    border: 1px solid navy;
+    padding: 6px;
+    margin: 4px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-btn:hover {
+    background-color: magenta;
+    color: black;
+}
+
+.nav-btn:active {
+    background-color: yellow;
+    color: black;
+}
+
+article h2 {
+    font-size: 144%;
+    margin-top: 0;
+}
+
+.card {
+    border: 1px solid black;
+    padding: 15px;
+    flex-grow: 1; 
+}
+
+#basic-info {
+    background-color: lightblue;
+    color: black;
+}
+
+#childhood {
+    background-color: lightgreen;
+    color: black;
+}
+
+#school-years {
+    background-color: lavender;
+    color: black;
+}
+
+#after-school {
+    background-color: lightpink;
+    color: black;
+}
+
+#university {
+    background-color: red;
+    color: black;
+}
+
+.to-content {
+    font-weight: bold;
+}
+
+.divider {
+    border: 1px solid black;
+    width: 100%;
+}
+
+.to-top {
+    text-transform: uppercase;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.col {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 992px) {
+    .col-lg-4 {
+        width: 33.33%;
+    }
+    .col-lg-6 {
+        width: 50%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6 {
+        width: 50%;
+    }
+    .col-md-12 {
+        width: 100%;
+    }
+}
+@media (max-width: 767px) {
+    .col-sm-12 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .col-sm-12 {
+        width: 100%;
+    }
+}
