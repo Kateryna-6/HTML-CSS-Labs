@@ -9,14 +9,10 @@ h1 {
 
 .back-link {
     font-style: italic;
-    display: inline-block;
-    margin-bottom: 20px;
 }
 
 h2 {
     text-align: center;
-    font-size: 18px;
-    margin-bottom: 10px;
 }
 
 ul li:nth-child(odd) {
