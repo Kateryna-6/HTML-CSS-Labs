@@ -20,10 +20,8 @@ h1 {
     margin-bottom: 30px;
 }
 
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
+.row {
+    overflow: hidden;
 }
 
 .card {
