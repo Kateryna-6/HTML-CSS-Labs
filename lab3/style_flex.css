@@ -40,6 +40,8 @@ h1 {
     min-height: 180px;
     padding-top: 35px;
 }
+.card p {
+    margin-top: 15px; 
 
 .badge {
     position: absolute;
